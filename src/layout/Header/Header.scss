@@ -1,0 +1,43 @@
+@import "../../Assets/scss/variables.scss";
+
+.custome-header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: transparent;
+    transition: 0.8s all;
+    box-shadow: 0px 0px transparent;
+    &.Activeheader{
+        background: #fff;
+        box-shadow: 1px 2px 7px 4px #140c0c00;
+        z-index: 111;
+    }
+    .link-wrapper {
+        grid-gap: 35px;
+
+        a {
+            font-family: $ROBOTO;
+            font-size: $FONTSIZE18;
+            color: #000000 !important;
+            font-weight: 400;
+            padding: 0px !important;
+            position: relative;
+        }
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 676px) {
+    .custome-header {
+        position: fixed;
+        background: #ffffffd9;
+    
+
+        .header-logo{
+            img{
+                max-width: 80%;
+            }
+        }
+     
+    }
+}

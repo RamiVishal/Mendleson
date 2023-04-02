@@ -1,0 +1,66 @@
+@import "../../Assets/scss/variables.scss";
+
+
+.copy-right {
+    padding: 22px 0px;
+    text-align: center;
+
+    p {
+        font-size: 14px;
+    }
+}
+
+
+.Footer-wrapper-link {
+    background: #BFDBFF;
+    padding: 42px 84px;
+
+    .Footer-link {
+
+        h5 {
+            font-size: $FONTSIZE16;
+            font-family: $RUBIK;
+            font-weight: 700;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0px;
+            margin: 0px;
+
+            li {
+                padding-bottom: 7px;
+
+
+                a {
+                    text-decoration: unset;
+                    font-family: 'Rubik';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 31px;
+                    color: #2C2C2C;
+                }
+
+                
+            }
+        }
+        &.social-link {
+            ul {
+                margin-left: -30px;
+
+                li {
+                    grid-gap: 10px;
+                    display: flex;
+                    align-items: center;
+
+                    img {
+                        width: 20px;
+                    }
+                }
+            }
+
+        }
+    }
+
+}

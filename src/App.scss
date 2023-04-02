@@ -1,0 +1,23 @@
+@import "./Assets/scss/variables.scss";
+
+body{
+    background-color: #fff;
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.container{
+    max-width: 1340px !important;
+}
+
+p{
+    font-size: $FONTSIZE18;
+    font-family: $RUBIK;
+    color: $BLACK;
+    margin: 0px !important;
+    line-height: 25px;
+    font-weight: 400;
+}
